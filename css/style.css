@@ -5,6 +5,7 @@
 
 body{
   font-family: 'PT Sans';
+//  background-color:#000000;
 }
 
 b{
@@ -82,8 +83,10 @@ b{
 }
 
 .content{
-  border-left: 1px solid #eeeeee;
-  padding: 0px;
+  //border-left: 1px solid #eeeeee;
+  padding: 15px;
+  background: url(biggrad.png) no-repeat;
+  background-size: 100% 249px;
 }
 
 .content .row {
@@ -123,4 +126,26 @@ b{
 
 .taskssettings{
   float: right;
+}
+
+.pies {
+  color: #999999;
+  font-size: 13px;
+}
+
+.pies img{
+  padding: 10px 0px 15px 0px;
+}
+
+.form-control {
+  width:220px;
+  height:29px;
+  border:none;
+  background-color:#f4f4f4;
+}
+
+.white {
+  background-color: #ffffff;
+  padding:40px;
+  border: 1px #e5e5e5 solid;
 }
