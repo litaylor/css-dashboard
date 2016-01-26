@@ -1,0 +1,112 @@
+* {
+  //border: 1px #CCCCCC solid;
+}
+
+
+body{
+  font-family: 'PT Sans';
+}
+
+h1{
+  font-size: 32px;
+  color: #2498f4;
+}
+
+.sprite {
+  display: block;
+}
+
+.stretch {
+  width:100%;
+  background-size: 100% 100%;
+  padding:0px;
+  margin:0px;
+  border:0px;
+}
+
+.header {
+  height:45px;
+  background-image: url(headerbg.png);
+}
+
+.navigation {
+  height:110px;
+  background-image: url(navbg.png);
+  padding-top:19px;
+}
+
+.navigation ul {
+  width:100%;
+  margin:0 auto;
+}
+
+.navigation li {
+  width:16%;
+  margin:0 auto;
+  cursor: pointer;
+}
+
+.navigation li div{
+  margin: 0 auto;
+}
+
+
+.headercontent{
+  height:44px;
+  float:right;
+  color: #ffffff;
+  line-height:45px;
+  padding-right:10px;
+}
+
+.dashboard{
+  background-color:#33cc66;
+  height:65px;
+  margin: 15px 0px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 36px;
+  line-height:65px;
+}
+
+.searchbar {
+  border-radius:3px;
+  border: #2db55b solid;
+  margin: 15px 0px;
+}
+
+.content{
+  border-left: 1px solid #eeeeee;
+}
+
+.content .row {
+  border-top: 1px solid #eeeeee;
+}
+
+.subcontent{
+  border-right: 1px solid #eeeeee;
+  background:url(smallgrad.png) no-repeat;
+  background-size: 100% 6px;
+}
+
+.announcements {
+  font-size:14px;
+  height: 50px;
+  line-height:50px;
+}
+
+.announcements div {
+  padding-left: 15px;
+}
+
+.orange{
+  color: #fe7f13;
+}
+
+.gray {
+  color: #777777;
+}
+
+.orange, .gray{
+  border-right:1px solid #eeeeee;
+}

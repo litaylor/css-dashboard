@@ -1,0 +1,248 @@
+.buttondown, .facegreen, .faceorange, .facesmallblue, .facesmallgray, .graphgreen, .graphorange, .headerbg, .headerquestionmark, .headersettings, .i1, .i1g, .i2, .i2g, .i3, .i3g, .i4, .i4g, .i5, .i5g, .i6, .i6g, .iconshadow, .navbg, .recschecklist, .recstip, .recsarticle, .socialcheck, .ribbonleft, .ribbonright, .socialempty, .searchbar, .taskssettings, .semicircleleft, .semicircleright{
+	background: url(sprites.png) no-repeat;
+}
+
+.buttondown{
+	background-position: -560px 0;
+	width: 10px;
+	height: 6px;
+}
+
+.facegreen{
+	background-position: -574px 0;
+	width: 79px;
+	height: 83px;
+}
+
+.faceorange{
+	background-position: -656px 0;
+	width: 79px;
+	height: 83px;
+}
+
+.facesmallblue{
+	background-position: -742px 0;
+	width: 20px;
+	height: 20px;
+}
+
+.facesmallgray{
+	background-position: -764px 0;
+	width: 20px;
+	height: 20px;
+}
+
+.graphgreen{
+	background-position: -787px 0;
+	width: 196px;
+	height: 86px;
+}
+
+.graphorange{
+	background-position: -986px 0;
+	width: 196px;
+	height: 86px;
+}
+
+.headerbg{
+	background-position: 0 -108px ;
+	height: 45px;
+}
+
+.headerquestionmark{
+	background-position: 0 0;
+	width: 45px;
+	height: 44px;
+}
+
+.headersettings{
+	background-position: -53px 0;
+	width: 45px;
+	height: 44px;
+}
+
+.i1{
+	background-position: -102px 0;
+	width: 56px;
+	height: 56px;
+}
+
+li:hover .i1{
+	background-position: -162px 0;
+	width: 56px;
+	height: 56px;
+}
+
+.i1g{
+	background-position: -162px 0;
+	width: 56px;
+	height: 56px;
+}
+
+.i2{
+	background-position: -223px 0;
+	width: 56px;
+	height: 56px;
+}
+
+li:hover .i2 {
+	background-position: -284px 0;
+	width: 56px;
+	height: 56px;
+}
+
+.i2g{
+	background-position: -284px 0;
+	width: 56px;
+	height: 56px;
+}
+
+.i3{
+	background-position: -344px 0;
+	width: 56px;
+	height: 56px;
+}
+
+li:hover .i3 {
+	background-position: -403px 0;
+	width: 56px;
+	height: 56px;
+}
+
+.i3g{
+	background-position: -403px 0;
+	width: 56px;
+	height: 56px;
+}
+
+.i4{
+	background-position: 0 -160px ;
+	width: 56px;
+	height: 56px;
+}
+
+li:hover .i4{
+	background-position: -62px -159px ;
+	width: 56px;
+	height: 56px;
+}
+
+.i4g{
+	background-position: -62px -159px ;
+	width: 56px;
+	height: 56px;
+}
+
+.i5{
+	background-position: -126px -159px ;
+	width: 56px;
+	height: 56px;
+}
+
+li:hover .i5 {
+	background-position: -185px -160px ;
+	width: 56px;
+	height: 56px;
+}
+
+.i5g{
+	background-position: -185px -160px ;
+	width: 56px;
+	height: 56px;
+}
+
+.i6{
+	background-position: -239px -160px ;
+	width: 56px;
+	height: 56px;
+}
+
+li:hover .i6 {
+	background-position: -292px -158px ;
+	width: 56px;
+	height: 56px;
+}
+
+.i6g{
+	background-position: -292px -158px ;
+	width: 56px;
+	height: 56px;
+}
+
+.iconshadow{
+	background-position: 0 -57px ;
+	width: 61px;
+	height: 5px;
+}
+
+.navbg{
+	background-position: 0 -238px ;
+	width: 1200px;
+	height: 110px;
+}
+
+.recschecklist{
+	background-position: -360px -164px ;
+	width: 23px;
+	height: 32px;
+}
+
+.recstip{
+	background-position: -400px -161px ;
+	width: 14px;
+	height: 35px;
+}
+
+.recsarticle{
+	background-position: -427px -160px ;
+	width: 19px;
+	height: 35px;
+}
+
+.socialcheck{
+	background-position: -357px -205px ;
+	width: 24px;
+	height: 22px;
+}
+
+.ribbonleft{
+	background-position: -462px -161px ;
+	width: 15px;
+	height: 40px;
+}
+
+.ribbonright{
+	background-position: -485px -161px ;
+	width: 15px;
+	height: 40px;
+}
+
+.socialempty{
+	background-position: -400px -214px ;
+	width: 12px;
+	height: 12px;
+}
+
+.searchbar{
+	background-position: -515px -163px ;
+	width: 256px;
+	height: 35px;
+}
+
+.taskssettings{
+	background-position: -513px -206px ;
+	width: 20px;
+	height: 20px;
+}
+
+.semicircleleft{
+	background-position: -783px -159px ;
+	width: 22px;
+	height: 50px;
+}
+
+.semicircleright{
+	background-position: -819px -159px ;
+	width: 22px;
+	height: 50px;
+}
