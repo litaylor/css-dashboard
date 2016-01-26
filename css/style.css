@@ -7,9 +7,14 @@ body{
   font-family: 'PT Sans';
 }
 
-h1{
+b{
   font-size: 32px;
+  font-weight: normal;
   color: #2498f4;
+}
+
+.nopadding {
+  padding:0px;
 }
 
 .sprite {
@@ -70,6 +75,7 @@ h1{
 }
 
 .searchbar {
+  float:right;
   border-radius:3px;
   border: #2db55b solid;
   margin: 15px 0px;
@@ -77,16 +83,15 @@ h1{
 
 .content{
   border-left: 1px solid #eeeeee;
+  padding: 0px;
 }
 
 .content .row {
-  border-top: 1px solid #eeeeee;
+  //border-top: 1px solid #eeeeee;
 }
 
 .subcontent{
   border-right: 1px solid #eeeeee;
-  background:url(smallgrad.png) no-repeat;
-  background-size: 100% 6px;
 }
 
 .announcements {
@@ -109,4 +114,13 @@ h1{
 
 .orange, .gray{
   border-right:1px solid #eeeeee;
+}
+
+.box {
+  background:url(smallgrad.png) no-repeat;
+  background-size: 100% 6px;
+}
+
+.taskssettings{
+  float: right;
 }
