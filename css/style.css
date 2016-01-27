@@ -290,8 +290,72 @@ b{
   margin-bottom: 5px;
 }
 
-.taskssettings span {
-  font-size: 21px;
+.leftlist {
+  font-size: 18px;
+  color: #2498f4;
   font-weight: normal;
-  font-style: normal;
+  cursor: pointer;
+}
+
+.leftlist div{
+  vertical-align: middle;
+}
+
+.leftlist .row{
+  margin-top: 5px;
+}
+
+.leftlist:hover{
+}
+
+.tbutton {
+  font-size: 15px;
+  //line-height: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  position: relative;
+  padding: 3px;
+  vertical-align: top;
+  width: auto;
+}
+
+.facesmallblue{
+  display: inline-block;
+  margin-top: 3px;
+}
+
+.leftlist .row:hover{
+  color: #dddddd;
+}
+
+#row1:hover #circle1 {
+  background-color: #dddddd;
+}
+
+#row1:hover #avi1 {
+  background-position: -764px 0;
+}
+
+#row2:hover #circle2 {
+  background-color: #dddddd;
+}
+
+#row2:hover #avi2 {
+  background-position: -764px 0;
+}
+
+#row3:hover #circle3 {
+  background-color: #dddddd;
+}
+
+#row3:hover #avi3 {
+  background-position: -764px 0;
+}
+
+#row4:hover #circle4 {
+  background-color: #dddddd;
+}
+
+#row4:hover #avi4 {
+  background-position: -764px 0;
 }
