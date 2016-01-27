@@ -68,7 +68,7 @@ b{
 .dashboard{
   background-color:#33cc66;
   height:65px;
-  margin: 15px 0px;
+  margin: 15px 10px;
   border-radius: 5px;
   color: #ffffff;
   font-size: 36px;
@@ -87,14 +87,15 @@ b{
   padding: 15px;
   background: url(biggrad.png) no-repeat;
   background-size: 100% 249px;
+  margin: 0px 5px;
 }
 
 .content .row {
-  //border-top: 1px solid #eeeeee;
+  //border-bottom: 1px solid #eeeeee;
 }
 
 .subcontent{
-  border-right: 1px solid #eeeeee;
+  //border-right: 1px solid #eeeeee;
 }
 
 .announcements {
@@ -104,7 +105,7 @@ b{
 }
 
 .announcements div {
-  padding-left: 15px;
+  //padding-left: 15px;
 }
 
 .orange{
@@ -122,6 +123,7 @@ b{
 .box {
   background:url(smallgrad.png) no-repeat;
   background-size: 100% 6px;
+  padding: 20px 10px;
 }
 
 .taskssettings{
@@ -146,6 +148,63 @@ b{
 
 .white {
   background-color: #ffffff;
-  padding:40px;
+  padding:0px 15px;
   border: 1px #e5e5e5 solid;
+}
+
+.imgwrap {
+  display: inline-block;
+  height:100%;
+  width:100%;
+  vertical-align:middle;
+}
+
+.imgwrap img {
+  margin:0 auto;
+}
+
+#analytics {
+  padding: 20px 20px;
+}
+
+#charts {
+  padding-right: 10px;
+  margin: 0px 0px;
+}
+
+.pulldown {
+  max-width: 180px;
+  height:30px;
+  background: url(downarrow.png) no-repeat;
+  background-position: right 5px center;
+  border: 1px #dddddd solid;
+  border-radius: 3px;
+  float:right;
+}
+
+.pulldown select{
+  -webkit-appearance: none;
+  width: 100%;
+  background:transparent;
+  border:none;
+  color: #666666;
+  font-size: 13px;
+  line-height: 30px;
+  padding: 0px 30px 0px 10px;
+}
+
+.imgstretch{
+  width:100%;
+  height:auto;
+  padding:10px 20px 0px;
+}
+
+.activity{
+  color: #999999;
+}
+
+.bleft{
+  background: url(leftborder.png) no-repeat left;
+  background-size: 35px 100%;
+  border-left: 1px solid #ededed;
 }
