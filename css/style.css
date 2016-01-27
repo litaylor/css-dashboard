@@ -208,3 +208,90 @@ b{
   background-size: 35px 100%;
   border-left: 1px solid #ededed;
 }
+
+.emptybox{
+  width: 16px;
+  height:16px;
+  border: thin solid #dddddd;
+  border-radius: 2px;
+  position: absolute;
+  bottom:0px;
+  left:0px;
+  padding:0px;
+  display: inline;
+}
+
+.checkwrap{
+  width:24px;
+  height:24px;
+  position:relative;
+  float:left;
+  display: inline;
+  margin-left: 10px;
+}
+
+.socialcheck{
+  position: absolute;
+  bottom: 0px;
+  left:0px;
+  display: inline;
+}
+
+.socialempty {
+  position: absolute;
+  bottom: 2px;
+  left: 2px;
+  display: inline;
+}
+
+.sociallabel{
+  float:left;
+  display:inline;
+  border: none;
+  border-radius: 3px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 3px 13px 3px 8px;
+  margin-top: 3px;
+}
+
+#socialbuttons{
+  width:450px;
+  float:none;
+  margin: 0 auto;
+}
+
+#facebook{
+  background-color: #114570;
+}
+
+#twitter{
+  background-color: #2298f4;
+}
+
+#foursquare{
+  background-color: #3a599b;
+}
+
+#googleplus{
+  background-color: #31cc66;
+}
+
+.circle{
+  width:24px;
+  height:24px;
+  border-radius: 50%;
+  background-color: #32cc66;
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.taskssettings span {
+  font-size: 21px;
+  font-weight: normal;
+  font-style: normal;
+}
