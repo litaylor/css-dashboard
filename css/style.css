@@ -140,6 +140,7 @@ a {
 
 .taskssettings{
   float: right;
+  margin-top:-35px;
 }
 
 .pies {
@@ -670,6 +671,13 @@ label {
 label span{
   float:left;
 }
+
+
+/* CUSTOM CHECK MARK METHOD FROM Sara Soueidan
+
+http://blogs.adobe.com/dreamweaver/2015/08/css-vs-svg-styling-checkboxes-and-radio-buttons.html
+
+*/
 
 input[type="checkbox"] + label span {
   display: inline-block;
